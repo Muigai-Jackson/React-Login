@@ -1,0 +1,137 @@
+body {
+    background: #bdc3c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.form {
+    background-color: white;
+    border-radius: 60px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-login {
+    background-color: white;
+    border-radius: 60px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-body {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body>* {
+    padding: 5px;
+}
+
+.form__label {
+    width: 40%;
+    font-size: 20px;
+}
+
+input {
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.button {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 60px;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.btn-login {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 60px;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background: #6cf0c2;
+}
+
+.imgs {
+    justify-content: center;
+    display: flex;
+}
+
+.container-image {
+    background-color: rgb(223, 221, 221);
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    height: 115px;
+    width: 115px;
+    padding-left: 8px;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+
+}
+
+.user-img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.pass-img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    padding-top: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.emails {
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    font-size: 20px;
+    margin-left: 50px;
+}
