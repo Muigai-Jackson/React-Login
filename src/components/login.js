@@ -1,10 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import './styles.css';
 import profile from "./images/login.png";
 import userimg from "./images/email.png";
 import passimage from "./images/lock.png";
 
 function LoginForm() {
+    const navigate = useNavigate();
+
+    const registerPage = () => {
+        navigate("/registrationForm")
+    }
     return (
         <div className="form-login">
             <div className="form-body">
@@ -25,7 +32,7 @@ function LoginForm() {
             </div>
             <div class="footer">
                 <button className='btn-login' type="submit">Login</button>
-                <button type="submit" className='button'>Register</button>
+                <button onClick={registerPage} type="submit" className='button'>Register</button>
             </div>
         </div>
     )
